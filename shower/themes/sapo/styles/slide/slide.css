@@ -25,8 +25,6 @@
 /* Modifiers */
 
 @import 'modifiers/clear.css';
-@import 'modifiers/gray.css';
-@import 'modifiers/black.css';
 
 /* Slide */
 
@@ -50,5 +48,4 @@
     counter-increment: slide;
     content: counter(slide);
     text-align: center;
-    font-size: 1.2em;
 }

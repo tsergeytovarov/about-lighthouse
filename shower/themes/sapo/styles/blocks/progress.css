@@ -7,7 +7,6 @@
     width: 0;
     height: var(--progress-size);
     overflow: hidden;
-    transition: all 0.2s linear;
 }
 
 .progress::before {
@@ -16,12 +15,6 @@
     height: var(--progress-size);
     background: var(--color-blue);
     content: '';
-    transform-origin: 0 100%;
-    transform: skewX(45deg);
-}
-
-.progress[style*='100%']::before {
-    transform: none;
 }
 
 /* List */

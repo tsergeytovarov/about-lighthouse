@@ -1,0 +1,50 @@
+:root {
+  --dark-color-bg: #2c2929;
+  --dark-color-bg-darken: #353131;
+  --dark-white: #ffffff;
+}
+
+.shower--dark {
+  --color-blue: #a0c5ea;
+}
+
+.shower.shower--dark {
+  background-color: var(--dark-color-bg);
+}
+
+.shower--dark .caption,
+.shower--dark .slide li::before {
+  color: var(--dark-white);
+}
+
+.shower--dark  .slide {
+  background-color: var(--dark-color-bg-darken);
+  color: var(--dark-white);
+}
+
+.shower--dark .slide h2 {
+  color: var(--dark-white);
+}
+
+.shower--dark .slide p.note {
+  color: var(--dark-white);
+  opacity: 0.7;
+  font-size: 0.8em;
+}
+
+.shower--dark .progress::before {
+  background: var(--dark-white);
+}
+
+.shower--dark .slide tr.mark:not(.next),
+.shower--dark .slide tr.mark.active {
+  color: var(--dark-color-bg-darken);
+}
+
+.shower--dark .slide table.striped tr:nth-child(even):not(.mark){
+  background-color: var(--dark-color-bg);
+}
+
+.slide pre code:not(:only-child)::before {
+  color: var(--dark-white);
+}
